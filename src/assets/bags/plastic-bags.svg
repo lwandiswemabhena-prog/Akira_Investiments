@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d0e8f5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b0d4ec;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bagGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a9fd4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2c7db5;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bagGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5ab0e0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3590c8;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="4" dy="6" stdDeviation="6" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#bgGrad)"/>
+
+  <!-- Bag 1 (back) -->
+  <rect x="90" y="140" width="130" height="170" rx="8" fill="url(#bagGrad)" filter="url(#shadow)"/>
+  <rect x="90" y="140" width="130" height="24" rx="8" fill="#1a5f8a"/>
+  <!-- Shine on bag 1 -->
+  <rect x="100" y="148" width="40" height="120" rx="4" fill="white" opacity="0.12"/>
+
+  <!-- Bag 2 (front) -->
+  <rect x="180" y="120" width="130" height="180" rx="8" fill="url(#bagGrad2)" filter="url(#shadow)"/>
+  <rect x="180" y="120" width="130" height="24" rx="8" fill="#1a5f8a"/>
+  <!-- Shine on bag 2 -->
+  <rect x="190" y="128" width="40" height="140" rx="4" fill="white" opacity="0.15"/>
+
+  <!-- Label strip on bag 2 -->
+  <rect x="180" y="200" width="130" height="30" fill="white" opacity="0.25"/>
+  <text x="245" y="221" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#0d3f5e" text-anchor="middle">HEAVY DUTY</text>
+
+  <!-- Bottom shadow -->
+  <ellipse cx="200" cy="315" rx="120" ry="14" fill="#1a5f8a" opacity="0.18"/>
+
+  <!-- Label at bottom -->
+  <rect x="60" y="340" width="280" height="44" rx="6" fill="white" opacity="0.85"/>
+  <text x="200" y="358" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1a2e3d" text-anchor="middle">HEAVY DUTY BLUE PLASTIC BAGS</text>
+  <text x="200" y="376" font-family="Arial, sans-serif" font-size="10" fill="#2c7db5" text-anchor="middle">Durable &amp; Tear-Resistant</text>
+</svg>

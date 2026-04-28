@@ -1,0 +1,31 @@
+# Maven
+target/
+*.jar
+*.war
+*.zip
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+*.log
+
+# Gradle
+.gradle/
+build/
+
+# Spring Boot
+application-local.properties
+application-dev.properties
+application-prod.properties
+
+# Database
+*.db
+*.sqlite
+
+# Environment
+.env
+.env.local
